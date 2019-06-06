@@ -1,6 +1,6 @@
 # Shared-Character Stories
 
-This directory contains the Shared-Character Stories dataset (759 stories) and annotations for its subset (100 stories, 623 annotations). 
+This directory contains the Shared-Character Stories dataset (759 stories) and annotations for its subset (100 stories and 623 annotations). 
 They are introduced in our paper:
 
 Yusuke Mori, Hiroaki Yamane, Yoshitaka Ushiku, Tatsuya Harada, "How narratives move your mind: A corpus of shared-character stories for connecting emotional flow and interestingness," Information Processing & Management, 2019.
@@ -17,7 +17,7 @@ Yusuke Mori, Hiroaki Yamane, Yoshitaka Ushiku, Tatsuya Harada, "How narratives m
   - Note that “athlete” was misspelled as “athelete” in our settings, but no workers seemed to be confused by the typo.
   
 
-### Emotion Evaluation (Amazon MTurk)
+### Emotion Evaluation
 - ./emotion_evaluation/small_task_allinfo.csv
   - 100 stories used for annotation (75 human-written, 25 artificial managed)
       - story id
