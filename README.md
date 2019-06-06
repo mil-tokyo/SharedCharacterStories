@@ -1,6 +1,6 @@
 # Shared-Character Stories
 
-This directory contains the Shared-Character Stories dataset and annotations for its subset. 
+This directory contains the Shared-Character Stories dataset (759 stories) and annotations for its subset (100 stories, 623 annotations). 
 They are introduced in our paper:
 
 Yusuke Mori, Hiroaki Yamane, Yoshitaka Ushiku, Tatsuya Harada, "How narratives move your mind: A corpus of shared-character stories for connecting emotional flow and interestingness," Information Processing & Management, 2019.
@@ -10,10 +10,10 @@ Yusuke Mori, Hiroaki Yamane, Yoshitaka Ushiku, Tatsuya Harada, "How narratives m
 
 ### Collected Stories
 - ./stories/condstories.csv
-  - collected 759 stories
+  - 759 stories, conditioned with two-character settings
       - story id
       - two-character setting
-      - sentence 1 ~ 5 of the story
+      - from 1st to 5th sentence of the story (sent_1 ~ sent_5)
   - Note that “athlete” was misspelled as “athelete” in our settings, but no workers seemed to be confused by the typo.
   
 
@@ -22,7 +22,7 @@ Yusuke Mori, Hiroaki Yamane, Yoshitaka Ushiku, Tatsuya Harada, "How narratives m
   - 100 stories used for annotation (75 human-written, 25 artificial managed)
       - story id
       - two-character setting
-      - sentence 1 ~ 5 of the story
+      - sent_1 ~ sent_5 
       - two-character names
       - two-character setting with the names replaced
       - type : a condition of the story {human-written, random last sentence, random last sentence from the same setting, random order}
@@ -30,7 +30,7 @@ Yusuke Mori, Hiroaki Yamane, Yoshitaka Ushiku, Tatsuya Harada, "How narratives m
 - ./emotion_evaluation/eval_results.csv
   - evaluated results (623 answers)
       - story id
-      - sentence 1 ~ 5 of the story
+      - sent_1 ~ sent_5 
       - Review
       - Valence and Arousal of each sentence from the points of view of Character 1, Character 2, and Reader 
       - Five Evaluation Aspects
